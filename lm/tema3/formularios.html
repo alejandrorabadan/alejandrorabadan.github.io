@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="gestionar.php" name="form1" method="get"></form>
+    <label for="Nombre">Nombre</label>
+    <input type="text" id="Nombre" name="Nombre">
+    <input type="submit" value="Submit">
+    <form action="gestionar.php" name="form2" method="get"></form>
+    <label for="Nombre">Nombre</label>
+    <input type="text" name="Nombre" id="Nombre" value="Jose" title="Tamaño de 40 caracteres">
+    <input type="submit" value="Submit">
+    <form action="gestionar.php" name="form3" method="get"></form>
+    <label for="Nombre">Nombre</label>
+    <input type="text" id="Nombre" name="Nombre" value="Jose" title="Este campo esta desactivado" disabled>
+    <input type="submit" value="Submit">
+    <form>
+    <p>Color favorito:</p>
+    <input type="radio" id="Rojo" value="Rojo">
+    <label for="Rojo">Rojo</label><br>
+    <input type="radio" id="Azul" value="Azul">
+    <label for="Azul">Azul</label><br>
+    <input type="submit" value="Submit">
+    <form>
+        <p>Coche: <input type="text" name="coches" list="coches"> </p>
+        <datalist id="coches">
+            <option>Volvo</option>
+            <option>Fiat</option>
+            <option>Ford</option>
+            <option>Audi</option>
+        </datalist>
+        <p><input type="Submit"></p>
+
+    </form>
+
+
+
+
+    </form>
+</body>
+</html>
