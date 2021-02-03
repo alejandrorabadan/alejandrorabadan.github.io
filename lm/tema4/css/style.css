@@ -19,6 +19,23 @@ header h1{
     font-size: 55px;
     background-color: black;
     color: burlywood;
+}
+header p {
+    font-size:22px
+}
+img{
+    display: block;
+    width: 250px;
+    -webkit-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+    filter: grayscale(1);
+    width: 200px;
+    animation: myAnimation 2s ease 1s 3 alternate forwards;
+}
 
-
+@keyframes myAnimation {
+    100% {
+        transform: rotate(360deg);
+    }
 }
