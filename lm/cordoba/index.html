@@ -5,47 +5,64 @@
     <meta charset = "utf-8">
     <meta name = "description" content = "Córdoba ciudad patrimonio">
     <meta name = "keywords" content = "Turismo, patrimonio, viajes">
+    <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
     <!--Link rel="stylesheet" href="estilos.css"-->
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        img{
+            align-items: left;
+        }
+        
+        .grid-container {
+             display: grid;
+        }
+        .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1.3fr 1.4fr 0.3fr;
+        gap: 0px 0px;
+        grid-template-areas:
+        "enlaces img  texto texto"
+        "enlaces img texto texto"
+        "footer footer footer footer";
+        }
+        .enlaces { grid-area: enlaces; }
+        .footer { grid-area: footer; }
+        .img { grid-area: img; }
+        .texto { grid-area: texto; }
+    </style>
 </head>
 <body>
-    <header> <h1>
-        Córdoba Ciudad Patrimonio </h1>
-    </header>
-    <nav>
-     <li><a href="index.html">Inicio </a></li>
-     <li><a href ="mezquita.html">La Mezquita</a></li>
-     <li><a href="#">Los Patios </a></li>
-     <li><a href="#">Medina Azahara </a></li>
-     <li><a href="contacto.html">Contacto </a></li>
-    </nav>
-    <main>
-        <section>
-            <article>
-                <h2>Noticia 1</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet blandit tortor. 
-                   Donec commodo consequat risus ut tincidunt. Phasellus consequat libero imperdiet dolor ultricies, blandit dapibus orci rhoncus. Praesent iaculis quis leo vitae luctus. Integer sed tincidunt est, at sagittis sem. Nullam volutpat eleifend ligula in finibus. Donec et finibus tellus. Cras semper dolor id odio condimentum, sed volutpat diam vulputate. Aliquam egestas condimentum neque, nec placerat neque lobortis ac. Morbi varius varius velit, vel malesuada dolor tincidunt at. Praesent quis enim in mi placerat malesuada. Aliquam sit amet arcu cursus, tincidunt tortor non, ullamcorper sem. Proin sit amet neque quis lectus placerat fermentum. Aliquam felis quam, vehicula rhoncus felis at, pharetra fringilla eros. 
-                </p>
-                
-                
-            </article>
-            <article>
-                <h2>Contenido noticia 2</h2>
-                <p>Vivamus ex turpis, tempor id vestibulum sed, imperdiet placerat sapien. Pellentesque dictum leo ullamcorper mi lacinia tempor. Cras vestibulum, nisi quis fermentum condimentum, metus mauris ultricies quam, eu ultrices lacus mi vel mauris. Sed tempor eu libero in bibendum. Praesent imperdiet felis at lorem semper, nec lacinia enim suscipit. 
-                    Suspendisse urna mauris, convallis quis porta non, elementum id arcu. Aliquam vulputate, dui id auctor pulvinar, nibh nunc pharetra erat, in pretium lectus augue et tortor.
-                    <cite>Vestibulum ac sodales enim</cite>
-                </p>
-                
-            </article>
-        </section>
-        <aside>
-            Agenda
-            Publicidad
-        </aside>
-    </main>
-    <footer>
-        &copy; Instagram: alejandro_rbdan.r
-        <address>Córdoba, Spain</address>
-        
-    </footer>
+	<div class="contenedor">
+		<header class="header">
+			<h2>Cordoba Ciudad Patrimonio</h2>
+		</header>
+		<main class="img">
+			<h1>Cordoba Ciudad Patrimonio</h1>
+			<p>
+                <img src="../cordoba/images/cordoba.jpeg" alt="">
+                <p></p>
+                Córdoba es una ciudad del sur de la región de Andalucía, en España, y es la capital de la provincia de Córdoba. Fue una importante ciudad romana y uno de los principales centros islámicos de la Edad Media.
+                Vamos a hacer un pequeño recorrido de los lugares más bonitos de Córdoba para poder ver en cada visita a la ciudad.				<br><br>
+				<br><br>
+			</p>
+		</main>
+		<aside class="enlaces">
+			<h3>NAVEGACION</h3>
+            <li><a href ="../../index.html">Inicio</a></li>
+            <li><a href="index.html">Cordoba Ciudad Patrimonio  </a></li>
+            <li><a href ="mezquita.html">La Mezquita</a></li>
+            <li><a href="patios.html">Los Patios </a></li>
+            <li><a href="medina.html">Medina Azahara </a></li>
+            <li><a href="contacto.html">Contacto </a></li>
+		</aside>
+		<footer class="footer">
+            <h3>Autor</h3>
+            Alejandro Rabadán Rivas 1ºDAW
+		</footer>
+	</div>
 </body>
 </html>

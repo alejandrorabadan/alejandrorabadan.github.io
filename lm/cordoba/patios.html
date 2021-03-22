@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang = "es">
+    <head>
+    <title>  Turismo Córdoba  </title>
+    <meta charset = "utf-8">
+    <meta name = "description" content = "Córdoba ciudad patrimonio">
+    <meta name = "keywords" content = "Turismo, patrimonio, viajes">
+    <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
+    <!--Link rel="stylesheet" href="estilos.css"-->
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        img{
+            align-items: left;
+        }
+        
+        .grid-container {
+             display: grid;
+        }
+        .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1.3fr 1.4fr 0.3fr;
+        gap: 0px 0px;
+        grid-template-areas:
+        "enlaces img  texto texto"
+        "enlaces img texto texto"
+        "footer footer footer footer";
+        }
+        .enlaces { grid-area: enlaces; }
+        .footer { grid-area: footer; }
+        .img { grid-area: img; }
+        .texto { grid-area: texto; }
+    </style>
+</head>
+<body>
+	<div class="contenedor">
+		<header class="header">
+			<h2>Cordoba Ciudad Patrimonio</h2>
+		</header>
+		<main class="img">
+			<h1>Patios</h1>
+			<p>
+                <img src="../cordoba/images/patios.jpg" alt="">
+                <p></p>
+                El patio cordobés es un elemento característico de la ciudad andaluza de Córdoba, España, y desde el año 1921 se magnifican con el famoso Festival de los Patios Cordobeses, declarado en 2012 Patrimonio de la Humanidad, cuya visita turística hacen que esta fama crezca en el exterior.
+
+En el interior no cabe pensar en una casa que no tenga un patio; lo demás son pisos o chalets. La colección de patios, desde el patio de la Mezquita-Catedral hasta patios minúsculos, es tan amplia que dificulta su catalogación. Los límites los marcan las designaciones de corral, "patinete" o patio de luces, huerto, parque o jardín.1​
+
+Los denominados Patios de Córdoba se encuentran principalmente en el barrio de San Basilio. También los encontramos en los barrios de Santa Marina, San Lorenzo, la Magdalena y en la Judería de la ciudad. Además, el palacio de Viana alberga doce patios en su interior.2​				<br><br>
+			</p>
+		</main>
+		<aside class="enlaces">
+			<h3>NAVEGACION</h3>
+            <li><a href ="../../index.html">Inicio</a></li>
+            <li><a href="index.html">Cordoba Ciudad Patrimonio  </a></li>
+            <li><a href ="mezquita.html">La Mezquita</a></li>
+            <li><a href="patios.html">Los Patios </a></li>
+            <li><a href="medina.html">Medina Azahara </a></li>
+            <li><a href="contacto.html">Contacto </a></li>
+		</aside>
+		<footer class="footer">
+			<h3>Autor</h3>
+            Alejandro Rabadán Rivas 1ºDAW
+		</footer>
+	</div>
+</body>
+</html>

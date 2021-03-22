@@ -1,21 +1,70 @@
 <!DOCTYPE html>
-<head>
-    <title>Turismo Córdoba</title>
+<html lang = "es">
+    <head>
+    <title>  Turismo Córdoba  </title>
     <meta charset = "utf-8">
-
+    <meta name = "description" content = "Córdoba ciudad patrimonio">
+    <meta name = "keywords" content = "Turismo, patrimonio, viajes">
+    <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
+    <!--Link rel="stylesheet" href="estilos.css"-->
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        img{
+            align-items: left;
+        }
+        
+        .grid-container {
+             display: grid;
+        }
+        .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1.3fr 1.4fr 0.3fr;
+        gap: 0px 0px;
+        grid-template-areas:
+        "enlaces img  texto texto"
+        "enlaces img texto texto"
+        "footer footer footer footer";
+        }
+        .enlaces { grid-area: enlaces; }
+        .footer { grid-area: footer; }
+        .img { grid-area: img; }
+        .texto { grid-area: texto; }
+    </style>
 </head>
-
 <body>
-    <main>
-        <section>
-            <article>
-                <h2>Noticia 1</h2>
-                <p>La Mezquita-catedral de Córdoba,1​2​ Santa María Madre de Dios» o «Gran Mezquita de Córdoba», actualmente
-                    conocida como la Catedral de la Asunción de Nuestra Señora de forma eclesiástica, es un edificio de la ciudad de
-                    Córdoba, España. En 2019 superó los dos millones de visitantes, siendo su récord histórico y convirtiéndolo en
-                    uno de los monumentos más visitados de España.
-                </p>
-                <img src="images/Mezquita1.jpg" alt="Exterior de la Mezquita"
-            </article>
-    </main>
+	<div class="contenedor">
+		<header class="header">
+			<h2>Cordoba Ciudad Patrimonio</h2>
+		</header>
+		<main class="img">
+			<h1>Mezquita</h1>
+			<p>
+                <img src="../cordoba/images/mezquita.jpg" alt="">
+                <p></p>
+                La Mezquita-Catedral de Córdoba (Patrimonio de la Humanidad desde 1984) es el monumento más importante de todo el Occidente islámico y uno de los más asombrosos del mundo. En su historia se resume la evolución completa del estilo omeya en España, además de los estilos gótico, renacentista y barroco de la construcción cristiana.
+
+                El lugar que hoy ocupa nuestra Mezquita-Catedral parece haber estado, desde antiguo, dedicado al culto de diferentes divinidades. Bajo dominación visigoda se construyó en este mismo solar la basílica de San Vicente, sobre la que se edificó, tras el pago de parte del solar, la primitiva mezquita. Esta basílica, de planta rectangular fue compartida por los cristianos y musulmanes durante un tiempo. Cuando la población musulmana fue creciendo, la basílica fue adquirida totalmente por Abderraman I y destruida para la definitiva construcción de la primera Mezquita Alhama o principal de la ciudad. En la actualidad algunos elementos constructivos del edificio visigodo se encuentran integrados en el primer tramo de Abderraman I.
+                
+                La gran Mezquita consta de dos zonas diferenciadas, el patio o sahn porticado, donde se levanta el alminar (bajo la torre renacentista), única intervención de Abd al- Rahman III, y la sala de oración o haram. El espacio interior se dispone sobre un concierto de columnas y arcadas bicolores de gran efecto cromático. Cinco son las zonas en las que se divide el recinto, correspondiendo cada una de ellas a las distintas ampliaciones llevadas a cabo.				<br><br>
+			</p>
+		</main>
+		<aside class="enlaces">
+			<h3>NAVEGACION</h3>
+            <li><a href ="../../index.html">Inicio</a></li>
+            <li><a href="index.html">Cordoba Ciudad Patrimonio  </a></li>
+            <li><a href ="mezquita.html">La Mezquita</a></li>
+            <li><a href="patios.html">Los Patios </a></li>
+            <li><a href="medina.html">Medina Azahara </a></li>
+            <li><a href="contacto.html">Contacto </a></li>
+		</aside>
+		<footer class="footer">
+			<h3>Autor</h3>
+            Alejandro Rabadán Rivas 1ºDAW
+		</footer>
+	</div>
 </body>
+</html>

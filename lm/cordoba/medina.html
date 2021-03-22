@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang = "es">
+    <head>
+    <title>  Turismo Córdoba  </title>
+    <meta charset = "utf-8">
+    <meta name = "description" content = "Córdoba ciudad patrimonio">
+    <meta name = "keywords" content = "Turismo, patrimonio, viajes">
+    <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
+    <!--Link rel="stylesheet" href="estilos.css"-->
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        img{
+            align-items: left;
+        }
+        
+        .grid-container {
+             display: grid;
+        }
+        .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1.3fr 1.4fr 0.3fr;
+        gap: 0px 0px;
+        grid-template-areas:
+        "enlaces img  texto texto"
+        "enlaces img texto texto"
+        "footer footer footer footer";
+        }
+        .enlaces { grid-area: enlaces; }
+        .footer { grid-area: footer; }
+        .img { grid-area: img; }
+        .texto { grid-area: texto; }
+    </style>
+</head>
+<body>
+	<div class="contenedor">
+		<header class="header">
+			<h2>Cordoba Ciudad Patrimonio</h2>
+		</header>
+		<main class="img">
+			<h1>Medina Azahara</h1>
+			<p>
+                <img src="../cordoba/images/medina.jpg" alt="">
+                <p></p>
+                Medina Azahara, la fastuosa y misteriosa ciudad que Abd-al Rahman III mandó construir a los pies de Sierra Morena, a ocho kilómetros de Córdoba capital, encierra, incluso en su nombre, historias legendarias. La tradición popular afirma que, autoproclamado Abd al-Rahman III califa en el 929 d.C., y tras ocho años de reinado, decidió edificar una ciudad palatina en honor a su favorita, Azahara. Sin embargo, recientes estudios aportan fuertes evidencias de la causa que impulsó al califa a fundar Medina Azahara. Una renovada imagen del recién creado Califato Independiente de Occidente, fuerte y poderoso, uno de los mayores reinos medievales de Europa, se acepta como el origen más probable de la nueva Medina.				<br><br>
+			</p>
+		</main>
+		<aside class="enlaces">
+			<h3>NAVEGACION</h3>
+            <li><a href ="../../index.html">Inicio</a></li>
+            <li><a href="index.html">Cordoba Ciudad Patrimonio  </a></li>
+            <li><a href ="mezquita.html">La Mezquita</a></li>
+            <li><a href="patios.html">Los Patios </a></li>
+            <li><a href="medina.html">Medina Azahara </a></li>
+            <li><a href="contacto.html">Contacto </a></li>
+		</aside>
+		<footer class="footer">
+			<h3>Autor</h3>
+            Alejandro Rabadán Rivas 1ºDAW
+		</footer>
+	</div>
+</body>
+</html>
