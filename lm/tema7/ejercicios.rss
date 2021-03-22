@@ -2,11 +2,11 @@
 <rss version="2.0">
 <channel>
     <title>Ejercicios Tema1</title>
-    <link>file:///Users/alejandro/Desktop/grado%20superior/ldm/lm/tema1/index.html</link>
+    <link href="https://alejandrorabadan.github.io/lm/tema1/index.html"></link>
     <descripcion>Ejercicios del tema 1</descripcion>
     <item>
         <title>Ejercicios Tema 2</title>
-        <link>file:///Users/alejandro/Desktop/grado%20superior/ldm/lm/tema1/index.html</link>
+        <link href="./ejercicio1.xml"></link>
         <descripcion>Ejercicios del tema 2</descripcion>
     </item>
 </channel>
