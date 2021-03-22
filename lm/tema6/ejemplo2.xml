@@ -1,0 +1,16 @@
+<!DOCTYPE persona [
+    <!ELEMENT persona (nombre,mayor_de_edad,ciudad,forma_pago)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT mayor_de_edad EMPTY>
+    <!ELEMENT ciudad (#PCDATA)>
+    <!ELEMENT forma_pago (#PCDATA)>
+    <!ATTLIST forma_pago tipo CDATA "cheque">
+    <!ATTLIST persona numero CDATA #REQUIRED>
+    <!ATTLIST forma_pago tipo (cheque|metálico) "metálico">
+]>  
+<persona numero = "#required">
+    <nombre>Paco</nombre>
+    <mayor_de_edad></mayor_de_edad>
+    <ciudad>Córdoba</ciudad>
+    <forma_pago tipo = "metálico"></forma_pago>
+</persona>

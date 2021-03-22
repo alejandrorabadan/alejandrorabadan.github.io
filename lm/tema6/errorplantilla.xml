@@ -1,0 +1,20 @@
+<!ELEMENT errores (error)+>
+<!ELEMENT error (numero,linea,explicacion)>
+<!ATTLIST error tipo (bien-formado|valido) #REQUIRED>
+<!ATTLIST error ejercicio (CDDATA) #REQUIRED>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT linea (#PCDATA)>
+<!ELEMENT explicacion (#PCDATA)>
+
+?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE errores SYSTEM "errores.dtd">
+
+<errores>
+
+    <error tipo="bien-formado" ejercicio="deportistas.xml">
+        <numero>1</numero>
+        <linea>10</linea>
+        <explicacion>falta el nodo raiz</explicacion>
+    </error>
+
+</errores>

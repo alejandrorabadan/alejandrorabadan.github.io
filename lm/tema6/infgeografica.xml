@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE geografia_mundial [
+    <!ELEMENT geografia_mundial (continente)*>
+    <!ELEMENT continente (pais)*>
+    <!ELEMENT pais (nombre,capital)>
+    <!ELEMENT capital (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ATTLIST continente nombre (Europa|Asia) >
+]> 
+<geografia_mundial>
+    <continente>
+    <pais>
+        <nombre> España</nombre>
+        <capital> Madrid</capital>
+    </pais> 
+    <pais>
+        <nombre> Francia</nombre>
+        <capital> Paris</capital>
+    </pais>
+    </continente>
+    <continente nombre = "Asia">
+        <pais>
+            <nombre> Afganistan</nombre>
+            <capital> Casmurdor</capital>
+        </pais> 
+        <pais>
+            <nombre> Taiwan</nombre>
+            <capital> Casmurdor2</capital>
+        </pais>
+        </continente>
+    
+</geografia_mundial>

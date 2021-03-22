@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<planeta>
+    <pais>Gran Bretaña</pais>
+    <capital>Londres</capital>
+    <nombre_reina>Isabel II</nombre_reina>
+    <pais>Francia</pais>
+    <capital>Paris</capital>
+    <pais>Noruega</pais>
+    <capital>Oslo</capital>
+    <nombre_rey>Harald V</nombre_rey>
+</planeta>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persona [
+<!ELEMENT agenda (persona+)> <!-- + estaba fuera del parentesis -->
+<!ELEMENT persona (nombre,tlf,tw?)> <!-- Falta el elemento "tw"-->
+<!ATTLIST persona id ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tlf (#PCDATA)>
+<!ELEMENT tw (#PCDATA)>
+]>
+
+<agenda>
+    <persona id="ricardo">
+        <nombre>Ricardo Borriquero</nombre>
+        <tlf>957751261</tlf> <!--tlf no estaba cerrado -->
+        <tw>@Ricardo</tw>
+    </persona>
+    <persona id="eva">
+        <nombre>Eva Risto</nombre>
+        <tlf>989723932</tlf>
+        <tw>@evaristo</tw>
+    </persona>
+</persona>
