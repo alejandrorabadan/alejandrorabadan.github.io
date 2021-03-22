@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curriculums xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="practicadelaunidad.xsd">
+
+    <cv id="D2" fecha="2020-04-27" categoria="Desarrollador">
+    <datos_personales>
+      <nombre>Alejandro</nombre>
+      <apellido1>Rabadan</apellido1>
+      <apellido2>Rivas</apellido2>
+      <telefono>957231354</telefono>
+      <correo>a19rarial@iesgrancapitan.org</correo>
+      <direcciones>
+        <direccion>
+          <calle> El Horno</calle>
+          <localidad>Córdoba</localidad>
+          <codigopostal>14010</codigopostal>
+          <provincia>Córdoba</provincia>
+          <pais>España</pais>
+        </direccion>
+      </direcciones>
+      <rrss>
+        <nombre>Instagram</nombre>
+        <nick>AlejandroRabadan</nick>
+        <enlace>https://www.instagram.com</enlace>
+        <valoracion>5</valoracion>
+      </rrss>
+    </datos_personales>
+    <datos_academicos>
+      <titulaciones_oficiales>
+        <descripcion>Bachillerato</descripcion>
+        <organismo>Junta de Andalucía</organismo>
+        <fechaInicio>2018-09-15</fechaInicio>
+        <fechaFinalizacion>2020-05-13</fechaFinalizacion>
+      </titulaciones_oficiales>
+      <cursos>
+        <descripcion>Chapa y pintura</descripcion>
+        <empresa>LimpiaCochesSA</empresa>
+        <fechaInicio>2019-05-21</fechaInicio>
+        <fechaFinalizacion>2020-05-21</fechaFinalizacion>
+      </cursos>
+      <nivelIdioma>
+        <comprender>B1</comprender>
+        <hablar>B1</hablar>
+        <escribir>B1</escribir>
+      </nivelIdioma>
+    </datos_academicos>
+    <experiencia_laboral>
+      <empresa>
+        <nombre>PatatasFritas SL</nombre>
+        <fechaInicio>2020-10-04</fechaInicio>
+        <fechaFinalizacion>2022-04-15</fechaFinalizacion>
+        <tarea>Pelar patatas</tarea>
+      </empresa>
+    </experiencia_laboral>
+    </cv>
+  <cv id="D1" fecha="2020-05-05" categoria="Programador web">
+    <datos_personales>
+      <nombre>Paco</nombre>
+      <apellido1>Martinez</apellido1>
+      <apellido2>Sorua</apellido2>
+      <telefono>957321433</telefono>
+      <correo>a19pacomarso@iesgrancapitan.org</correo>
+      <direcciones>
+        <direccion>
+          <calle>Metelo pio</calle>
+          <localidad>Córdoba</localidad>
+          <codigopostal>14002</codigopostal>
+          <provincia>Córdoba</provincia>
+          <pais>España</pais>
+        </direccion>
+      </direcciones>
+      <rrss>
+        <nombre>Instagram</nombre>
+        <nick>Pacomartinez</nick>
+        <enlace>https://www.instagram.com</enlace>
+        <valoracion>2</valoracion>
+      </rrss>
+    </datos_personales>
+    <datos_academicos>
+      <titulaciones_oficiales>
+        <descripcion>Tecnico superior de fontaneria</descripcion>
+        <organismo>Junta de Andalucía</organismo>
+        <fechaInicio>2004-09-15</fechaInicio>
+        <fechaFinalizacion>2006-05-13</fechaFinalizacion>
+      </titulaciones_oficiales>
+      <cursos>
+        <descripcion>Albañil</descripcion>
+        <empresa>Los perrones</empresa>
+        <fechaInicio>2018-04-27</fechaInicio>
+        <fechaFinalizacion>2019-01-01</fechaFinalizacion>
+      </cursos>
+      <nivelIdioma>
+        <comprender>A2</comprender>
+        <hablar>A2</hablar>
+        <escribir>A2</escribir>
+      </nivelIdioma>
+    </datos_academicos>
+    <experiencia_laboral>
+      <empresa>
+        <nombre>Bar Gloria</nombre>
+        <fechaInicio>2018-01-01</fechaInicio>
+        <fechaFinalizacion>2019-11-01</fechaFinalizacion>
+        <tarea>Camarero</tarea>
+      </empresa>
+    </experiencia_laboral>
+    </cv>
+    
+
+</curriculums>

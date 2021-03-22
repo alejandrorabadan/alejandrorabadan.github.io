@@ -1,0 +1,7 @@
+
+<!ELEMENT dulces (dulce+)>
+<!ELEMENT dulce (nombre,precio,descripcion,calorias)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT calorias (#PCDATA)>

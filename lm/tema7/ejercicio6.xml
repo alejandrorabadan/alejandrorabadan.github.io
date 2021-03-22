@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ejercicio5.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<personas>
+    <persona fecha-de-nacimiento="2000-10-23">
+        <datos>
+            <nombre>Paco</nombre>
+            <apellidos>Sanabria</apellidos>
+            <dni>12332112D</dni>
+        </datos>
+        <comentario>Alto</comentario>
+        <forma-de-pago>Cuenta Bancaria</forma-de-pago>
+    </persona>
+</personas>

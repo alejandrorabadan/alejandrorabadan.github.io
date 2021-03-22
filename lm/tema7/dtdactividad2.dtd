@@ -1,0 +1,5 @@
+<!ELEMENT pedidos (nombre,calle,fecha)>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre bicicleta NMTOKEN #REQUIRED>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
