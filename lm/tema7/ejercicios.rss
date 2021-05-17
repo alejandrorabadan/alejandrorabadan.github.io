@@ -9,5 +9,15 @@
         <link href="./ejercicio1.xml"></link>
         <descripcion>Ejercicios del tema 2</descripcion>
     </item>
+    <item>
+        <title>Trabajo ERP</title>
+        <link href="../Tema9/ERP.html"></link>
+        <descripcion>Trabajo ERP, es una web en la que se hace un quiz</descripcion>
+    </item>
+    <item>
+        <title>Trabajo Odoo</title>
+        <link href="../Tema9/Odoo.pdf"></link>
+        <descripcion>Trabajo Odoo, es un pdf en el que explico y detallo con imágenes la instalación</descripcion>
+    </item>
 </channel>
 </rss>
