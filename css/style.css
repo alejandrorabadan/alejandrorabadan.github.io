@@ -81,6 +81,10 @@ main #about .habilidades-h2 {
   padding-top: 0px;
 }
 
+main .container-about {
+  border-bottom: 1px solid;
+}
+
 main .img-yo {
   width: 40vh;
   height: 50vh;
